@@ -435,5 +435,49 @@ Create a class named Student, which will inherit the properties and methods from
 
 
 
-f = lambda n: 1 if n==0 else n*f(n-1)
-print(f(5))
+# f = lambda n: 1 if n==0 else n*f(n-1)
+# print(f(5))
+
+# f = open('testfile.txt','r')
+# print('read data in file--',f.read())
+# print('check filename--',f.name)
+# print('check opening mode--',f.mode)
+# print('check open/close--',f.closed)
+# print('check readable--',f.readable())
+# print('check writable--',f.writable())
+
+# f=open('file1.txt','w')
+# text = input('Enter something here --\n')
+# f.write(text)
+# f.close()
+
+# f=open('file1.txt','w')
+# l=['Mumbai','Banglore','Kolkata','Delhi']
+# f.writelines(l)
+# f.close()
+
+
+
+
+# f=open('file1.txt','r')
+# print(f.read())
+# or
+# for line in f:
+#     print(line)
+# f.close()
+
+
+# f=open('file1.txt','r')
+# while True:
+#     s1=f.readline()
+#     if s1=='':
+#         break
+#     print(s1)
+# f.close()
+
+# or
+
+# s=f.readlines()
+# print(s)
+# f.close()
+
