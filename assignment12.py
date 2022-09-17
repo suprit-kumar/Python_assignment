@@ -75,9 +75,8 @@
 def print_cubes(n):
     if n==0:
         return 0
-    else:
-        n+print_cubes(n-1)
-        print(n**3,end=', ')
+    n+print_cubes(n-1)
+    print(n**3,end=', ')
 
 
 
